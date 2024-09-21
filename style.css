@@ -1,0 +1,39 @@
+.card {
+  box-sizing: border-box;
+  background-color: aqua;
+  color: chocolate;
+  border: 5px solid black;
+  border-radius: 10px;
+  height: 500px;
+  width: 600px;
+  padding: 100px;
+  margin-left: 350px;
+}
+
+.game {
+  display: flex;
+  gap: 10px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+button {
+  border: 5px solid black;
+  border-radius: 8px;
+}
+
+.results {
+  background-color: beige;
+  width: 600px;
+  height: auto;
+  border: 1px solid gold;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+
+.result-text,
+.scores,
+.commentary,
+.decision {
+  text-align: center;
+}
